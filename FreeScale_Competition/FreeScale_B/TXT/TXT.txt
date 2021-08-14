@@ -1,0 +1,11 @@
+CAMERA:
+data_pin :PTC8_15 禁用PULL，禁中断
+clk_pin:  PTC6 输入下拉,下降沿产生DMA请求
+场中断：PTC7 输入上拉,使能低通滤波器,上升沿产生中断
+
+OLED:
+PTB16,PTB20,PTB22,PTB23
+
+UART0:
+RX:PTD6
+TX:PTD7
